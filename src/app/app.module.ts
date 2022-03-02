@@ -3,16 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 
-import {AppRoutingModule} from "./app-routing.module";
-import {AppComponent} from "./app.component";
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule,
-    AmplifyAuthenticatorModule,
-    AppRoutingModule
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    /* configure App with AmplifyAuthenticatorModule */
+    AmplifyAuthenticatorModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
