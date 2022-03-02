@@ -10,6 +10,11 @@
       "StackName": "amplify-prueba-dev-200919",
       "StackId": "arn:aws:cloudformation:us-west-2:334415415924:stack/amplify-prueba-dev-200919/65468450-99c5-11ec-9a97-0aa8063349b3",
       "AmplifyAppId": "d38jrevqu3pqca"
+    },
+    "categories": {
+      "auth": {
+        "prueba9af7d6f6": {}
+      }
     }
   }
 }
